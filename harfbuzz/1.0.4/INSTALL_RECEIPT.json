@@ -1,0 +1,1 @@
+{"used_options":[],"unused_options":["--with-cairo","--without-icu4c","--with-graphite2"],"built_as_bottle":true,"poured_from_bottle":true,"time":1443967617,"HEAD":"5a646e9d272d5e031a6ed9e3b12db45eb6c4ddac","stdlib":"libcxx","compiler":"clang","source":{"path":"/usr/local/Library/Formula/harfbuzz.rb","tap":"Homebrew/homebrew","spec":"stable"}}

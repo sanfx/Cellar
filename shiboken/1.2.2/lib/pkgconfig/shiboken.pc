@@ -1,0 +1,13 @@
+prefix=/usr/local/Cellar/shiboken/1.2.2
+exec_prefix=/usr/local/Cellar/shiboken/1.2.2
+libdir=/usr/local/Cellar/shiboken/1.2.2/lib
+includedir=/usr/local/Cellar/shiboken/1.2.2/include/shiboken
+generator_location=/usr/local/Cellar/shiboken/1.2.2/bin/shiboken
+python_interpreter=/usr/bin/python2.7
+python_include_dir=/usr/include/python2.7
+
+Name: shiboken
+Description: Support library for Python bindings created with Shiboken generator.
+Version: 1.2.2
+Libs: -undefined dynamic_lookup -L${libdir} -lshiboken-python2.7
+Cflags: -I/usr/include/python2.7 -I${includedir}/
