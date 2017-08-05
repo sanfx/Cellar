@@ -1,0 +1,14 @@
+prefix=/usr/local/Cellar/freetype/2.6.5
+exec_prefix=/usr/local/Cellar/freetype/2.6.5
+libdir=/usr/local/Cellar/freetype/2.6.5/lib
+includedir=/usr/local/Cellar/freetype/2.6.5/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 18.5.12
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -lbz2 -L/usr/local/Cellar/libpng/1.6.23/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

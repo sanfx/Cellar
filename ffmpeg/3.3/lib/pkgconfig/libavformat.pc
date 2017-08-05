@@ -1,0 +1,14 @@
+prefix=/usr/local/Cellar/ffmpeg/3.3
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 57.71.100
+Requires: 
+Requires.private: libavcodec >= 57.89.100, libswresample >= 2.7.100, libavutil >= 55.58.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -framework QuartzCore -framework QuartzCore -framework AppKit -framework OpenGL -framework QuartzCore -framework AppKit -framework OpenGL -framework CoreVideo -framework Foundation -framework AVFoundation -framework CoreMedia -framework CoreFoundation -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework CoreFoundation -framework AudioToolbox -framework CoreMedia -framework VideoDecodeAcceleration -framework CoreFoundation -framework QuartzCore -liconv -Wl,-framework,CoreFoundation -Wl,-framework,Security -L/usr/local/Cellar/openssl/1.0.2k/lib -lssl -lcrypto -Wl,-framework,OpenCL -lxvidcore -L/usr/local/Cellar/x264/r2748/lib -lx264 -L/usr/local/Cellar/libvpx/1.6.1/lib -lvpx -lm -L/usr/local/Cellar/libvpx/1.6.1/lib -lvpx -lm -L/usr/local/Cellar/libvpx/1.6.1/lib -lvpx -lm -L/usr/local/Cellar/libvpx/1.6.1/lib -lvpx -lm -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lmp3lame -L/usr/local/Cellar/libass/0.13.6/lib -lass -framework CoreGraphics -lm -lbz2 -lz -pthread -framework CoreServices
+Cflags: -I${includedir}

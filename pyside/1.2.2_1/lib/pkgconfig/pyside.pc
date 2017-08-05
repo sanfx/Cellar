@@ -1,0 +1,14 @@
+prefix=/usr/local/Cellar/pyside/1.2.2_1
+exec_prefix=/usr/local/Cellar/pyside/1.2.2_1
+libdir=/usr/local/Cellar/pyside/1.2.2_1/lib
+includedir=/usr/local/Cellar/pyside/1.2.2_1/include/PySide
+typesystemdir=/usr/local/Cellar/pyside/1.2.2_1/share/PySide/typesystems
+pythonpath=/usr/local/Cellar/pyside/1.2.2_1/lib/python2.7/site-packages
+
+Name: PySide
+Description: Support library for Python bindings of Qt-based libraries.
+Version: 1.2.2
+Libs: -L${libdir} -lpyside-python2.7
+Cflags: -I${includedir}
+Requires: shiboken
+

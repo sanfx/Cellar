@@ -1,0 +1,11 @@
+prefix=/usr/local/Cellar/gedit/3.20.2
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gedit
+Description: gedit
+Requires: gtksourceview-3.0 libpeas-1.0 libpeas-gtk-1.0
+Version: 3.20.2
+Cflags: -I${includedir}/gedit-3.14
+Libs: -L${libdir} 

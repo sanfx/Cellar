@@ -1,0 +1,6 @@
+prefix=/usr/local/Cellar/gsettings-desktop-schemas/3.20.0
+
+Name: gsettings-desktop-schemas
+Description: Shared GSettings schemas for the desktop, including helper headers
+Version: 3.20.0
+Cflags: -I${prefix}/include/gsettings-desktop-schemas

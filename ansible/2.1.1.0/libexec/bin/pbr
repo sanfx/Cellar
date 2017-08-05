@@ -1,0 +1,10 @@
+#!/usr/local/Cellar/ansible/2.1.1.0/libexec/bin/python
+# PBR Generated from u'console_scripts'
+
+import sys
+
+from pbr.cmd.main import main
+
+
+if __name__ == "__main__":
+    sys.exit(main())
