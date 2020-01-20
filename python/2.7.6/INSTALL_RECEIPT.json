@@ -1,1 +1,0 @@
-{"unused_options":["--universal","--quicktest","--with-poll","--without-sqlite","--without-gdbm","--with-brewed-tk","--without-readline","--with-dtrace","--with-brewed-openssl"],"poured_from_bottle":false,"HEAD":"659aeb7d3e9efe6033579c7bb21697abed5cc886","tapped_from":"Homebrew/homebrew","stdlib":null,"time":1423670644,"used_options":[],"built_as_bottle":false,"compiler":"clang"}

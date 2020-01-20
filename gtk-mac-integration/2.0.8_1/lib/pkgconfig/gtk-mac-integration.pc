@@ -1,0 +1,11 @@
+prefix=/usr/local/Cellar/gtk-mac-integration/2.0.8_1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gtk-mac-integration-gtk2
+Description: Mac menu bar and dock integration for GTK+
+Requires: gtk+-2.0
+Version: 2.0.8
+Libs: -L${libdir} -lgtkmacintegration-gtk2
+Cflags: -I${includedir}/gtkmacintegration -DMAC_INTEGRATION

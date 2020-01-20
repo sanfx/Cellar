@@ -1,0 +1,10 @@
+prefix=/usr/local/Cellar/ntfs-3g/2017.3.23
+exec_prefix=/usr/local/Cellar/ntfs-3g/2017.3.23
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libntfs-3g
+Description: NTFS-3G Read/Write Driver Library
+Version: 2017.3.23
+Cflags: -I${includedir}
+Libs:  -L${libdir} -lntfs-3g
